@@ -6,18 +6,24 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_a",
+						"type": "int256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "a",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -25,12 +31,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "investor",
+				"name": "flag",
 				"outputs": [
 					{
-						"internalType": "address payable",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -38,29 +44,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "name",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "payMoney",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sendMoney",
-				"outputs": [],
-				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -77,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"training/contracts/Modifiers.sol": "Odemeler"
+			"training/contracts/Inheritence,sol.sol": "Country"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -91,11 +83,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"training/contracts/Modifiers.sol": {
-			"keccak256": "0x276f3f1edf48338241f93653eee0589261135e83a6e90bfc1e4ff8d739461b7b",
+		"training/contracts/Inheritence,sol.sol": {
+			"keccak256": "0x6b746d522f34fde1d9ca2df4b11cb4f48dae2212c96c5f25e57cf436cf9bc6cb",
 			"urls": [
-				"bzz-raw://c42755c32c5c44639f1e4b00fc7163b96ce0486f12fef8ea2b4702cee6b030df",
-				"dweb:/ipfs/Qmc1Lh3HTB4txf3kHw4cFLYTeWWdjfAzKHCpgWyCcu1ULM"
+				"bzz-raw://f0171d20ba9b0c3e61c870c1c344af2377cf871abc6e663ddeeed206e236d3ed",
+				"dweb:/ipfs/QmWkbn8Dy3M2ugTBvE35xWHHUkkhnXw3gi2zeZ2tU7tBJY"
 			]
 		}
 	},

@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "attendance",
+						"type": "bool"
+					},
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "marks",
+						"type": "int256"
+					}
+				],
+				"name": "studentRegistered",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "newStudent",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "attendance",
+						"type": "bool"
+					},
+					{
+						"internalType": "int256",
+						"name": "marks",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "_attendance",
+						"type": "bool"
+					},
+					{
+						"internalType": "int256",
+						"name": "_marks",
+						"type": "int256"
+					}
+				],
+				"name": "registerStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"training/contracts/Events.sol": "Events"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"training/contracts/Events.sol": {
+			"keccak256": "0xbba9f6ecdd32d4ae9e101ab474c13d91a9298584008cd42d39e27ec9b9c55cf5",
+			"urls": [
+				"bzz-raw://c600b9d0d21c98699c48c520cc473c6a32a0a87172f8d596f626262611575563",
+				"dweb:/ipfs/QmUqMrnBwwJjpazWgDAugX9fNZazmen7gnN87w34LAxcG7"
+			]
+		}
+	},
+	"version": 1
+}

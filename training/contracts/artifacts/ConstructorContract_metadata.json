@@ -6,9 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_totalNumber",
+						"type": "int256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
 			},
 			{
 				"inputs": [],
@@ -25,12 +35,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "investor",
+				"name": "getBalance_long_way",
 				"outputs": [
 					{
-						"internalType": "address payable",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -51,16 +61,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "payMoney",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sendMoney",
-				"outputs": [],
-				"stateMutability": "payable",
+				"name": "totalNumber",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -77,7 +86,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"training/contracts/Modifiers.sol": "Odemeler"
+			"training/contracts/Constructor.sol": "ConstructorContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -91,11 +100,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"training/contracts/Modifiers.sol": {
-			"keccak256": "0x276f3f1edf48338241f93653eee0589261135e83a6e90bfc1e4ff8d739461b7b",
+		"training/contracts/Constructor.sol": {
+			"keccak256": "0xf5a825e9cfec9e473d217e2ba34f87968250363598fca5722c4733162f0212b2",
 			"urls": [
-				"bzz-raw://c42755c32c5c44639f1e4b00fc7163b96ce0486f12fef8ea2b4702cee6b030df",
-				"dweb:/ipfs/Qmc1Lh3HTB4txf3kHw4cFLYTeWWdjfAzKHCpgWyCcu1ULM"
+				"bzz-raw://ed310ca2693aea8c3a1613dfcc1c3cb06314441a78b2150bca5eaa4e72d41a70",
+				"dweb:/ipfs/QmPji6EkhmiswXvsNNoYt1rDaFN7tK1BipmH7ADczSjR53"
 			]
 		}
 	},
