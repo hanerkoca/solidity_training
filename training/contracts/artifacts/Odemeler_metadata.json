@@ -92,10 +92,11 @@
 	},
 	"sources": {
 		"training/contracts/Modifiers.sol": {
-			"keccak256": "0x276f3f1edf48338241f93653eee0589261135e83a6e90bfc1e4ff8d739461b7b",
+			"keccak256": "0x52b9b566ad299093a7da19415d829e02b10256028f35ef5fb5ccddc92182c6ab",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c42755c32c5c44639f1e4b00fc7163b96ce0486f12fef8ea2b4702cee6b030df",
-				"dweb:/ipfs/Qmc1Lh3HTB4txf3kHw4cFLYTeWWdjfAzKHCpgWyCcu1ULM"
+				"bzz-raw://ed63d1c885bc7c5caf8e93344fe3b2fc531b46c9e552bf4728cd3c71f35f0a6e",
+				"dweb:/ipfs/QmZTyDPVZA1SnWhHn7k9nDLnBzR1Ah1i88GY2UH4trqnjc"
 			]
 		}
 	},

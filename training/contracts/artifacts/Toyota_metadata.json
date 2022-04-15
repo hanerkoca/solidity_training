@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "change",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "newCar",
+				"outputs": [
+					{
+						"internalType": "contract Car",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"training/contracts/OnetoAnother.sol": "Toyota"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"training/contracts/OnetoAnother.sol": {
+			"keccak256": "0x1647e5b7a2b94373c8cac3b19a543811174caab2cfc62e5e5a49a4abb39c1825",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://de15fdd21c27618aa04958d6811c0154c6ac2a4dff6dae33cb31414dbd6b5cc1",
+				"dweb:/ipfs/QmRdWNz2xN3aD8Vez2f5qVMH4f5wmjvtBNYCHK962J7dK4"
+			]
+		}
+	},
+	"version": 1
+}

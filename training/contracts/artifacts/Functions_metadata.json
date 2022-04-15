@@ -148,10 +148,11 @@
 	},
 	"sources": {
 		"training/contracts/Functions.sol": {
-			"keccak256": "0xfb1c57dbd401bfcafff33e3b9c28f9d4634bd190436648b12a112106bfbe1ff1",
+			"keccak256": "0xd1ee534a3b60947e353615a75d397b8ea80bf3cd55c4644be14141a478191c04",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://06de3e1940ea831fa440a3494ddde4011fc4ca36ee4af14bb90f81a14dd5c34e",
-				"dweb:/ipfs/QmeNUojL5JsfgpchJvWxzkaLQNd3F6URGbKFmnViP7jdaW"
+				"bzz-raw://adce0a1ad8cd6af8cc727a0c159fb96f8ae44f98231dc3e44083d760120c5ddd",
+				"dweb:/ipfs/QmSxo6aT2Qjq9szcV6mtvrK1QHzxBLuHDLfCTWFatuNnEq"
 			]
 		}
 	},

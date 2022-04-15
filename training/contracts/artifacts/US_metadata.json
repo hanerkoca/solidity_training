@@ -121,7 +121,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"training/contracts/Inheritence,sol.sol": "US"
+			"training/contracts/Inheritance.sol": "US"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -135,11 +135,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"training/contracts/Inheritence,sol.sol": {
-			"keccak256": "0x6b746d522f34fde1d9ca2df4b11cb4f48dae2212c96c5f25e57cf436cf9bc6cb",
+		"training/contracts/Inheritance.sol": {
+			"keccak256": "0xc2eb57d6522a03ff1da267023e52a4809426ac49bca11d19b4ef0711c904a2d8",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f0171d20ba9b0c3e61c870c1c344af2377cf871abc6e663ddeeed206e236d3ed",
-				"dweb:/ipfs/QmWkbn8Dy3M2ugTBvE35xWHHUkkhnXw3gi2zeZ2tU7tBJY"
+				"bzz-raw://4057f571cc624ee6461ee0d78d0284a857ed93be485ef1e340c26a137fe0bde9",
+				"dweb:/ipfs/QmRWHvzwrZdzEyApNKXJZCGVJztZP4QFs1e6xHZiftLunT"
 			]
 		}
 	},

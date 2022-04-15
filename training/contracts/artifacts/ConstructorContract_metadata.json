@@ -101,10 +101,11 @@
 	},
 	"sources": {
 		"training/contracts/Constructor.sol": {
-			"keccak256": "0xf5a825e9cfec9e473d217e2ba34f87968250363598fca5722c4733162f0212b2",
+			"keccak256": "0x589ad3a45f2e9d916623d63cc04b257b8abd60464f26b4b62fdfc2c48e77ebfe",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ed310ca2693aea8c3a1613dfcc1c3cb06314441a78b2150bca5eaa4e72d41a70",
-				"dweb:/ipfs/QmPji6EkhmiswXvsNNoYt1rDaFN7tK1BipmH7ADczSjR53"
+				"bzz-raw://2085bb9e0eb1f5e777a989d2c055abcda9d762c56aa31678334a2d3d60769910",
+				"dweb:/ipfs/QmRXTx7CGwDGspmko1D5WugjRmHbtYwrnPW3JD3rVrKwQj"
 			]
 		}
 	},

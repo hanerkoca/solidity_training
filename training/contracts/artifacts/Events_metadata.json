@@ -105,10 +105,11 @@
 	},
 	"sources": {
 		"training/contracts/Events.sol": {
-			"keccak256": "0xbba9f6ecdd32d4ae9e101ab474c13d91a9298584008cd42d39e27ec9b9c55cf5",
+			"keccak256": "0x8d43a731b42e9f0d71dee56aff2b2fe3dd46a1afdfd8818c7b895bbabfc205de",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c600b9d0d21c98699c48c520cc473c6a32a0a87172f8d596f626262611575563",
-				"dweb:/ipfs/QmUqMrnBwwJjpazWgDAugX9fNZazmen7gnN87w34LAxcG7"
+				"bzz-raw://fccd8b87dae2c8b1587e53385f6640d76046aa8a25c37ada28faccbfb8f587b0",
+				"dweb:/ipfs/QmUZvnujnGqZA8xhmLA2SP39YEwyfYeCBn4TcpaUkosFDG"
 			]
 		}
 	},

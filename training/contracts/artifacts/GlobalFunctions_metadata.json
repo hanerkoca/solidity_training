@@ -95,10 +95,11 @@
 	},
 	"sources": {
 		"training/contracts/GlobalFunc.sol": {
-			"keccak256": "0xed7ef5f96ee02e804f75e700dceb39486d6bc8c8bc185a3d2882b4bc615d564b",
+			"keccak256": "0xb6ad98369a04770e20a32c0481bf6067c38d2d11122ddfc97be6cf0f91e5abb7",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://35289d5b3f7fb31aa1de6efeb812c647cc6ac7c2f09d8652da8458988a8aec5d",
-				"dweb:/ipfs/QmTn6sB7PqF4t51ZeKVrc49ZwbjibHWsb8pL4KGdkTGeRk"
+				"bzz-raw://f0e08097eeb826467468b2d630bb0359823f168b076c5718863f84f41b1486a8",
+				"dweb:/ipfs/QmaJcn7KcaJc5dAyd8S12CdUEvcZS8rtWN7PPaeBkSMee7"
 			]
 		}
 	},
