@@ -7,65 +7,16 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "player",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "playerInvested",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "winner",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "winnerSelected",
-				"type": "event"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "enter",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "invest",
+				"name": "lottery",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -82,6 +33,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "pickWinner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -92,19 +50,12 @@
 				"name": "players",
 				"outputs": [
 					{
-						"internalType": "address payable",
+						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "selectWinner",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -121,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"training/contracts/Lottery.sol": "Lottery"
+			"training/contracts/lottery_test.sol": "Lottery"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -135,12 +86,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"training/contracts/Lottery.sol": {
-			"keccak256": "0x1a7f565673613a047b5c1977e35bb12293ae8e4773a350d1058c452119fe95e4",
-			"license": "GPL-3.0",
+		"training/contracts/lottery_test.sol": {
+			"keccak256": "0xd61651b1bad2b9765d5eb978590dd05d8801175c699a93553e094b5f4490b1e2",
 			"urls": [
-				"bzz-raw://d8cc0c847ead48ccafe4bdbfe9734d49e86ccfa36b06c7af99583637ef5c15f0",
-				"dweb:/ipfs/QmaBgBYiSGowXe3mVePSenr1Z135mzjcUEmHbEL2yTRhiX"
+				"bzz-raw://b4f3ffc514fbe89215d9dfcc38c09c1a287855d08923745da51ac4020624da21",
+				"dweb:/ipfs/QmNm1AagFc4xXAe3q5aywuwtixjiSHSqdwLrHw34Twh3ir"
 			]
 		}
 	},

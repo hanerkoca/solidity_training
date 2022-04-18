@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "div",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reminder",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"training/openzeppelin/Safemath.sol": "Safemath"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x80a62a632fb210251e8a7632c66d8624fd1c2e60b75b3e08c8b04803abec336f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0163070ead773cf28c76b7d88abb8ecf1c0a2cebda62cc44ca91f60faae361d6",
+				"dweb:/ipfs/QmfVwE4pVia7L7LMbSkQRUWzmX6f4XpdagrrXh7or2qhyd"
+			]
+		},
+		"training/openzeppelin/Safemath.sol": {
+			"keccak256": "0xa23d8c8052c5b50c5460b049af19a0283d32e1fd6356783dea6666fdba212ecb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a406908d875fd4ac2bd324b3103f937d830ec6a18868755af1e2a8686e3d4c59",
+				"dweb:/ipfs/QmPrqrcUMpJzZr7MFMXNPABKBywxk45PX6fejcESH52KSw"
+			]
+		}
+	},
+	"version": 1
+}

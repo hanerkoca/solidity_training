@@ -7,36 +7,10 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "bytedeger",
+				"name": "c1",
 				"outputs": [
 					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "deger",
-				"outputs": [
-					{
-						"internalType": "int8",
-						"name": "",
-						"type": "int8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "deger2",
-				"outputs": [
-					{
-						"internalType": "uint8",
+						"internalType": "enum Variable.cities",
 						"name": "",
 						"type": "uint8"
 					}
@@ -45,8 +19,33 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "isim",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "names",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "names2",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -59,7 +58,36 @@
 			},
 			{
 				"inputs": [],
-				"name": "tf",
+				"name": "ogr1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "surname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "no",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"name": "ogrenciler",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -84,7 +112,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"training/contracts/Variables.sol": "Variable"
+			"training/contracts/Variables2.sol": "Variable"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -98,12 +126,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"training/contracts/Variables.sol": {
-			"keccak256": "0x60b11e7801f35da19b77d4668bbc2e580e58bdf8ca2eb0cb3b3dfab13ef9db38",
+		"training/contracts/Variables2.sol": {
+			"keccak256": "0x7a984778e68e75dce4918e98d8bcd3b5097595b384eafc097e6631a4043c4476",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://88f005fb56511b13decd4aa208156540da5b6ee2894dc0642a78a6468c2e471b",
-				"dweb:/ipfs/QmeAveu3XYPYvjfyXVjteG3LcBpzyre3e74LuSMVTGTytt"
+				"bzz-raw://d1f5d2fe8575052b78007e8477cdeb9ece81a459f015191701bd363dfe0b581f",
+				"dweb:/ipfs/QmWv6CrezzcGjFYgk3afxfgP3pdicGCJewvJNrPpVDjmUB"
 			]
 		}
 	},

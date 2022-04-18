@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "lotteries",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "createLottery",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "lotteryAddress",
+						"type": "address"
+					}
+				],
+				"name": "deleteLottery",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getLotteries",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "lotteryAddress",
+						"type": "address"
+					}
+				],
+				"name": "LotteryCreated",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"training/contracts/lottery_test.sol": "LotteryGenerator"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"training/contracts/lottery_test.sol": {
+			"keccak256": "0x521a20e8336303ba93167a4ad2a0b57cd572711dc2e29a88e22ab77e8b38b4e3",
+			"urls": [
+				"bzzr://b9252d436f8a5b69bbcd489240caa13ee92dab9cfc5455cd4606c45d57158973"
+			]
+		}
+	},
+	"version": 1
+}

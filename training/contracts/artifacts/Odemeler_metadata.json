@@ -7,11 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
 				"name": "getBalance",
 				"outputs": [
 					{
@@ -29,19 +24,6 @@
 				"outputs": [
 					{
 						"internalType": "address payable",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
@@ -77,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"training/contracts/Modifiers.sol": "Odemeler"
+			"training/contracts/PayableFunctions.sol": "Odemeler"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -91,12 +73,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"training/contracts/Modifiers.sol": {
-			"keccak256": "0x52b9b566ad299093a7da19415d829e02b10256028f35ef5fb5ccddc92182c6ab",
+		"training/contracts/PayableFunctions.sol": {
+			"keccak256": "0x48acaa5a6061c2e04acf74df5fedeee39e4445569f4627bd763f78e6512897b6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ed63d1c885bc7c5caf8e93344fe3b2fc531b46c9e552bf4728cd3c71f35f0a6e",
-				"dweb:/ipfs/QmZTyDPVZA1SnWhHn7k9nDLnBzR1Ah1i88GY2UH4trqnjc"
+				"bzz-raw://a516d877dfbf9c354109cffef86c332a5ac08c135780d8ba2657cdac8bc9b1de",
+				"dweb:/ipfs/QmeZShUJzmJfrcfwKgCqsnBr4agK7fJ9U77YVujhbENZJw"
 			]
 		}
 	},
